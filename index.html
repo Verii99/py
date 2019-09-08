@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice on Python</title>
+    <style>
+     .blok-center {
+     position: absolute; /* Абсолютное позиционирование */
+     width: 230px; /* Ширина блока */
+     height: 400px; /* Высота блока */
+     margin: auto; /* Отступ от блока */
+     top: 0; /* Положение блока от верхнего края */
+     bottom: 0; /* Положение блока от нижнего края */
+     left: 0; /* Положение блока от левого края */
+     right: 0; /* Положение блока от правого края */
+     background: url(https://i.pinimg.com/736x/6f/a8/89/6fa8897aca3b6aeab644b14a330fa627.jpg); /* Цвет фона блока */
+     border: 1px solid #000; /* Рамка блока */
+     padding: 10px; /* Отступ внутри блока */
+     overflow: auto; /* Полоса прокрутки */
+    }
+   </style>
+</head>
+<body>
+<div class="blok-center">
+    <center><h1>Добро пожаловать</h1></center>
+ <center><a href = "{{url_for('reg')}}">Регистрация<br></a></center>
+    <center><a href = "{{url_for('avt')}}">Авторизация</a></center>
+
+</body>
+</html>
